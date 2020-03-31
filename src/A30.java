@@ -14,10 +14,10 @@ public class A30 {
                 if (a[i]>temp)
                     temp=a[i];
             }
-            int k=0;
             for (int i=0;i<x;i++){
                 if (temp%a[i]!=0) {
-                    i=-1;
+                    //防止提前循环结束
+                    i-=1;
                     temp++;
                 }
             }

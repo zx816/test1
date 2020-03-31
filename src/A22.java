@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class A22 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        while (sc.hasNextInt()){
+        while (sc.hasNext()){
             int m=sc.nextInt();
             if (m!=0){
                 int[] a=new int[m];

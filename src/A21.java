@@ -6,7 +6,7 @@ public class A21 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int m,n;
-        while (sc.hasNextInt()){
+        while (sc.hasNext()){
             n=sc.nextInt();
             m=sc.nextInt();
             if (n==0&&m==0)

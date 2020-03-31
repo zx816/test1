@@ -22,6 +22,11 @@ public class A27 {
                     }
                 }
             }
+            /*StringBuilder sb=new StringBuilder(s);
+            sb.insert(loc[0]+1,"(max)");
+            for (int i=1;i<loc.length&&loc[i]!=0;i++)
+                sb.insert(loc[i]+1+5*i,"(max)");
+            System.out.println(sb);*/
             String s1="";
             char[] cs=s.toCharArray();
             int h=0;

@@ -4,7 +4,7 @@ public class A17 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n,m;
-        while (sc.hasNextInt()){
+        while (sc.hasNext()){
             n=sc.nextInt();
             m=sc.nextInt();
             for (int i=1;i<=n;i=i+m){

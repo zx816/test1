@@ -1,10 +1,8 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
 /*2011pass*/
 public class A13 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        DecimalFormat df=new DecimalFormat("0.00");
         int x=sc.nextInt();
         int n;
         for (int i=0;i<x;i++){
@@ -16,7 +14,7 @@ public class A13 {
                 else
                     m=m-1.0/j;
             }
-            System.out.println(df.format(m));
+            System.out.println(String.format("%.2f",m));
         }
     }
 }

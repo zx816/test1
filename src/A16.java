@@ -1,11 +1,9 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
 /*2014pass*/
 public class A16 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        DecimalFormat df=new DecimalFormat("#.00");
-        while (sc.hasNextInt()){
+        while (sc.hasNext()){
             int x=sc.nextInt();
             int[] a=new int[x];
             for (int i=0;i<x;i++)
@@ -27,7 +25,7 @@ public class A16 {
             double sum=0;
             for (int b=0;b<a.length-2;b++)
                 sum=sum+a[b];
-            System.out.println(df.format(sum/(a.length-2)));
+            System.out.println(String.format("%.2f",sum/(a.length-2)));
         }
     }
 }
