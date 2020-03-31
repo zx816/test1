@@ -4,7 +4,7 @@ public class A8 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int x,y;
-        while (sc.hasNextInt()){
+        while (sc.hasNext()){
             x=sc.nextInt();
             int z=1;
             for (int i=0;i<x;i++){

@@ -5,7 +5,7 @@ public class A10 {
         Scanner sc=new Scanner(System.in);
         int x,b,c,d;
         double a;
-        while (sc.hasNextInt()){
+        while (sc.hasNext()){
             b=0;c=0;d=0;
             x=sc.nextInt();
             if (x!=0){
