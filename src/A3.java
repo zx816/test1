@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2001通过*/
+/*2001通过 计算两点间的距离 数学题*/
 public class A3 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

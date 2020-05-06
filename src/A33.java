@@ -1,57 +1,29 @@
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.Scanner;
-/*2031pass*/
+/*2031 输入一个十进制数N，将它转换成R进制数输出. 巧用ascii*/
 public class A33 {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int m,n;
-        while (sc.hasNextInt()){
-            m=sc.nextInt();
-            n=sc.nextInt();
-            if (n>=2&&n<=16&&n!=10){
-                if(m==0)
-                    System.out.println(0);
-                else if (m>0)
-                     System.out.println(f(m,n));
-                else
-                    System.out.println("-"+f(m,n));
+    public static void main(String args[]) {
+        Scanner sn = new Scanner(System.in);
+        while (sn.hasNext()) {
+            int n = sn.nextInt();// 十进制数n
+            int r = sn.nextInt();// R进制数r
+            String s = "";
+            if (n < 0) { // 变为正数
+                n = -n;
+                System.out.print("-");
             }
-        }
-    }
-    public static String f(int m,int n){
-        if (m<0)
-            m=-m;
-        Deque<Integer> deque=new LinkedList<Integer>();
-        while (m!=0){
-            deque.push(m%n);
-            m=m/n;
-        }
-        String s="";
-        while (!deque.isEmpty()){
-            s+=q(deque.pop());
-        }
-        return s;
-    }
-    public static String q(int a){
-        if (a<10)
-            return String.valueOf(a);
-        else if (a>=10){
-            switch (a){
-                case 10:
-                    return "A";
-                case 11:
-                    return "B";
-                case 12:
-                    return "C";
-                case 13:
-                    return "D";
-                case 14:
-                    return "E";
-                case 15:
-                    return "F";
+            char a = 'A';
+            int b = a;  //A的ASSIC码
+            while (n > 0) {
+                int t = n % r;
+                if (t >= 10) {
+                    int c = t - 10 + b;
+                    char d = (char) c;
+                    s = d + s;
+                } else
+                    s = t + s;
+                n = n / r;
             }
+            System.out.println(s);
         }
-        return null;
     }
 }

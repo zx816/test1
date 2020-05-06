@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2038pass*/
+/*2039pass 给定三条边，请你判断一下能不能组成一个三角形。数学题*/
 public class A41 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

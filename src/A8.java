@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2006pass*/
+/*2006pass 求奇数的乘积 简单题*/
 public class A8 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

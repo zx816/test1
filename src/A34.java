@@ -1,12 +1,13 @@
 import java.util.Scanner;
-/*2032pass*/
+/*2032杨辉三角pass 数学题*/
 public class A34 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int x;
-        while (sc.hasNextInt()){
+        while (sc.hasNext()){
             x=sc.nextInt();
             int[][] a=new int[x][x];
+            //动态规划
             for (int i=0;i<x;i++){
                 for (int j=0;j<=i;j++) {
                     if (i==0)

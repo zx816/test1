@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2014pass*/
+/*2014pass 去掉一个最高分和一个最低分，然后计算平均得分 数学题*/
 public class A16 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

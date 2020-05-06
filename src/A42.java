@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2040pass*/
+/*2040pass 亲和数 特殊的数*/
 public class A42 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -10,6 +10,7 @@ public class A42 {
                 int b=sc.nextInt();
                 int sum1=0;
                 int sum2=0;
+                //求真约数
                 for (int j=1;j<=a/2;j++){
                     if (a%j==0)
                         sum1+=j;

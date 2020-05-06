@@ -3,9 +3,14 @@ import java.util.Scanner;
 public class A70 {
     static int[] a = new int[14];
     public static void main(String[] args) {
-        wrongsort();
+        a[0] = 0;
+        a[1] = 0;
+        a[2] = 1;
+        //错排公式
+        for(int i = 3; i < 14; i++)
+            a[i] = (i - 1) * (a[i-1] + a[i-2]);
         Scanner in = new Scanner(System.in);
-        while(in.hasNextInt()){
+        while(in.hasNext()){
             int n = in.nextInt();
             if(n == 0)
                 break;
@@ -20,13 +25,6 @@ public class A70 {
         for(int i = 0; i < m; i++)
             s = s * (n - i) / (i + 1);
         return s;
-    }
-    private static void wrongsort() {
-        a[0] = 0;
-        a[1] = 0;
-        a[2] = 1;
-        for(int i = 3; i < 14; i++)
-            a[i] = (i - 1) * (a[i-1] + a[i-2]);
     }
 }
 

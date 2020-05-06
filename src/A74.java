@@ -7,11 +7,10 @@ public class A74 {
         Scanner sc=new Scanner(System.in);
         while (sc.hasNext()){
             String a=sc.nextLine();
-
             boolean bre = false;
             String b[]=a.split(" ");
-            for(int i=0;i<b.length;i++)
-            {
+            for(int i=0;i<b.length;i++) {
+                //字符串是否包含#
                 if(b[i].contains("#"))
                     bre=true;
             }
@@ -20,13 +19,11 @@ public class A74 {
             /*
              * 算不同单词数
              */
-            for(int i=0;i<b.length;i++)
-            {
+            for(int i=0;i<b.length;i++) {
                 if(!list.contains(b[i]))
                     list.add(b[i]);
             }
-            if(list.contains(""))
-            {
+            if(list.contains("")) {
                 System.out.println(list.size()-1);
             }
             else

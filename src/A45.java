@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2043pass*/
+/*2043pass 是判断它是不是一个安全的密码。*/
 public class A45 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -12,6 +12,7 @@ public class A45 {
                 char[] cs=s.toCharArray();
                 if (a>=8&&a<=16){
                     int[] kind=new int[4];
+                    //标记不合法的字符
                     boolean f=true;
                     int count=0;
                     for (int j=0;j<a;j++){

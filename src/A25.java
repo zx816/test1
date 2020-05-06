@@ -1,5 +1,6 @@
 import java.util.Scanner;
-/*2023借鉴*/
+/*2023借鉴 假设一个班有n(n<=50)个学生，每人考m(m<=5)门课，求每个学
+生的平均成绩和每门课的平均成绩，并输出各科成绩均大于等于平均成绩的学生数量*/
 public class A25 {
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);

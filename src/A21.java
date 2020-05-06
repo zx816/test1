@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
-/*2019pass
-  插入排序代码有误*/
+/*2019pass 插入排序代码有误
+给一个整数x，请将该数插入到序列中，并使新的序列仍然有序 简单题*/
 public class A21 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

@@ -1,5 +1,6 @@
 import java.util.Scanner;
-/*2021pass*/
+/*2021pass 最少需要准备多少张人民币，才能在给每位老师发工资的时候都不用老师找零呢
+ 人民币一共有100元、50元、10元、5元、2元和1元六种 硬解*/
 public class A23 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

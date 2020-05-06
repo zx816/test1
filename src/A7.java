@@ -1,5 +1,6 @@
 import java.util.Scanner;
-/*2005pass不知道自己代码哪有问题*/
+/*2005pass不知道自己代码哪有问题
+  给定一个日期，输出这个日期是该年的第几天。数学题*/
 public class A7 {
 
     public static boolean ifleapYear(int year) {

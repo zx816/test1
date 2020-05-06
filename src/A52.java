@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+/*2050pass n条折线分割平面的最大数目 数学问题*/
 public class A52 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

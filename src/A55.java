@@ -1,5 +1,7 @@
 import java.util.Scanner;
-/*2053be smart*/
+/*2053be smart有一些灯排成一条直线。所有的灯在刚开始都是关闭的，在对灯
+进行一系列操作后:在第i次操作的时候，调整所有标号是i的倍数的灯的状态
+(原本打开的灯将它关闭，原本关闭的将它打开)。*/
 public class A55 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

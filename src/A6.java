@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2004pass*/
+/*2004pass 成绩转换 简单题*/
 public class A6 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

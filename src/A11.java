@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2009pass*/
+/*2009pass 求数列的和 数学题*/
 public class A11 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

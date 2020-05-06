@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2042pass*/
+/*2042pass 类似蟠桃会*/
 public class A44 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

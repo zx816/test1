@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2060pass*/
+/*2060pass snooker简单题*/
 public class A62 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

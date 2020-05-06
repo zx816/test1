@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2061学习*/
+/*2061学习 计算绩点*/
 public class A63 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

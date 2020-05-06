@@ -23,7 +23,7 @@ public class A75 {
                 }
                 if((x1+y1)!=(x2+y2)) {
                     if (y1 != 0)
-                        ans = ans + Math.pow(2 * y1 * y1, 0.5);
+                        ans = ans + Math.sqrt(2 * y1 * y1);
                     for (int i = 1; i <= (x2 + y2 - x1 - y1); i++)
                         ans = ans + (x1 + y1 + i) * Math.pow(2.0, 0.5);
                     for (int i = 0; i < (x2 + y2 - x1 - y1); i++)
@@ -31,7 +31,7 @@ public class A75 {
                     ans = ans - Math.pow(2 * y2 * y2, 0.5);
                 }
                 else
-                    ans=Math.pow((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1),0.5);
+                    ans=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
                 System.out.println(String.format("%.3f",ans));
             }
         }

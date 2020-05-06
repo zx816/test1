@@ -1,5 +1,6 @@
 import java.util.Scanner;
-/*2015pass*/
+/*2015pass 有一个长度为n(n<=100)的数列，该数列定义为从2开始的递增有
+序偶数，现在要求你按照顺序每m个数求出一个平均值 数学题*/
 public class A17 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

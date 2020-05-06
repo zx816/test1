@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2022pass借鉴*/
+/*2022pass借鉴 要选一个面试分数绝对值（必须还是32位整数）最大的MM 数学题*/
 public class A24 {
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);

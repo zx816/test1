@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2003pass*/
+/*2003pass 求绝对值 简单题*/
 public class A5 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

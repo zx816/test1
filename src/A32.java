@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2030pass借鉴*/
+/*2030pass借鉴 汉字统计 从汉字机内码的特点考虑*/
 public class A32 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+/*2057pass 十进制与十六进制的转换*/
 public class A59 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

@@ -1,5 +1,6 @@
 import java.util.Scanner;
-/*2056学习*/
+/*2056学习 给出两个矩形在对角线上的顶点的坐标，要求你计算两个矩形的公共部分的面积。
+其实，说的极端一点，两矩形摆放，也就两种摆法：相交与不相交。*/
 public class A58 {
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
@@ -12,7 +13,7 @@ public class A58 {
             double d1 = sn.nextDouble();
             double c2 = sn.nextDouble();
             double d2 = sn.nextDouble();
-            double k = 0, a, b, c, d;
+            double k, a, b, c, d;
             if (a1 > a2) {
                 k = a1;
                 a1 = a2;

@@ -1,10 +1,10 @@
 import java.util.Arrays;
 import java.util.Scanner;
-/*2000pass*/
+/*2000pass ASCII码排序简单题*/
 public class A2 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String s=null;
+        String s;
         while (sc.hasNext()){
             s=sc.next();
             char[] chars=s.toCharArray();

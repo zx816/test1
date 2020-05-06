@@ -1,5 +1,6 @@
 import java.util.Scanner;
-/*2051pass*/
+/*2051pass 2031的特殊
+十进制和二进制的转换*/
 public class A53 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

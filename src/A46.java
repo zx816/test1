@@ -1,5 +1,6 @@
 import java.util.Scanner;
-/*2044学习*/
+/*2044学习 蜜蜂从蜂房a爬到蜂房b的可能路线数。
+ 所以在第n格里蜜蜂可以爬到第n+1, n+2格子里*/
 public class A46 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

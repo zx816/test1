@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2016pass*/
+/*2016pass 输入n(n<100)个数，找出其中最小的数，将它与最前面的数交换后输出这些数 数学题*/
 public class A18 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

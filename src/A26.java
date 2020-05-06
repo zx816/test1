@@ -1,5 +1,5 @@
 import java.util.*;
-/*2024pass借鉴*/
+/*2024pass借鉴 C语言合法标识符*/
 public class A26 {
     static boolean think(String s) {
         char[] k = s.toCharArray();
@@ -24,6 +24,7 @@ public class A26 {
                 if (i == 0) {
                     String s1 = sc.nextLine();
                 }
+                //可包含空字符
                 String s = sc.nextLine();
                 if (think(s) == true) {
                     System.out.println("yes");

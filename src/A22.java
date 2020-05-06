@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2020pass注意冒泡排序*/
+/*2020pass注意冒泡排序 绝对值排序*/
 public class A22 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -9,6 +9,7 @@ public class A22 {
                 int[] a=new int[m];
                 for (int i=0;i<m;i++)
                     a[i]=sc.nextInt();
+                //冒泡排序,每一轮确定一个最小值或最大值
                 for (int j=0;j<m-1;j++){
                     for (int k=0;k<m-j-1;k++) {
                         if (Math.abs(a[k]) < Math.abs(a[k + 1])) {

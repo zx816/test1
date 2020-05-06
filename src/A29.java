@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2027pass*/
+/*2027pass 统计元音 简单题*/
 public class A29 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

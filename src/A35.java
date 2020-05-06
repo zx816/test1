@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2033pass*/
+/*2033pass 两个时间，A和B 相加 数学题*/
 public class A35 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

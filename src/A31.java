@@ -1,5 +1,5 @@
 import java.util.Scanner;
-/*2029pass*/
+/*2029pass 回文串 特殊的字符串*/
 public class A31 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

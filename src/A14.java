@@ -1,5 +1,6 @@
 import java.util.Scanner;
-/*2012pass*/
+/*2012pass 素数判定 打表法
+ 与2098相似*/
 public class A14 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -30,17 +31,16 @@ public class A14 {
         }
     }
     public static boolean f(int a){
-        boolean flag=true;
         if (a<2)
+            return false;
+        else if (a!=2&&a%2==0)
             return false;
         else {
             for (int i=2;i*i<=a;i++){
-                if (a%i==0) {
-                    flag = false;
-                    break;
-                }
+                if (a%i==0)
+                    return false;
             }
         }
-        return flag;
+        return true;
     }
 }

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
 import java.util.Scanner;
-/*2034借鉴*/
+/*2034集合A-B借鉴 */
 public class A36 {
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);

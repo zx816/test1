@@ -1,5 +1,7 @@
 import java.util.Scanner;
-/*2011pass*/
+/*2011pass 多项式的描述如下：
+1 - 1/2 + 1/3 - 1/4 + 1/5 - 1/6 + ...
+数学题*/
 public class A13 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
